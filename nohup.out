@@ -1,0 +1,64 @@
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+Starting new HTTPS connection (1): qyapi.weixin.qq.com
+https://qyapi.weixin.qq.com:443 "POST /cgi-bin/webhook/send?key=9bb24910-1e95-4f9e-b076-6688f9223935 HTTP/1.1" 200 27
+127.0.0.1 - - [07/Apr/2020 14:44:51] "[37mPOST /slack/events HTTP/1.0[0m" 200 -
+Starting new HTTPS connection (1): qyapi.weixin.qq.com
+https://qyapi.weixin.qq.com:443 "POST /cgi-bin/webhook/send?key=9bb24910-1e95-4f9e-b076-6688f9223935 HTTP/1.1" 200 27
+127.0.0.1 - - [07/Apr/2020 15:10:43] "[37mPOST /slack/events HTTP/1.0[0m" 200 -
+Starting new HTTPS connection (1): qyapi.weixin.qq.com
+https://qyapi.weixin.qq.com:443 "POST /cgi-bin/webhook/send?key=9bb24910-1e95-4f9e-b076-6688f9223935 HTTP/1.1" 200 27
+127.0.0.1 - - [07/Apr/2020 15:10:46] "[37mPOST /slack/events HTTP/1.0[0m" 200 -
+Starting new HTTPS connection (1): qyapi.weixin.qq.com
+https://qyapi.weixin.qq.com:443 "POST /cgi-bin/webhook/send?key=9bb24910-1e95-4f9e-b076-6688f9223935 HTTP/1.1" 200 27
+127.0.0.1 - - [07/Apr/2020 15:10:48] "[37mPOST /slack/events HTTP/1.0[0m" 200 -
+Starting new HTTPS connection (1): qyapi.weixin.qq.com
+https://qyapi.weixin.qq.com:443 "POST /cgi-bin/webhook/send?key=9bb24910-1e95-4f9e-b076-6688f9223935 HTTP/1.1" 200 27
+127.0.0.1 - - [07/Apr/2020 15:10:52] "[37mPOST /slack/events HTTP/1.0[0m" 200 -
+Starting new HTTPS connection (1): qyapi.weixin.qq.com
+https://qyapi.weixin.qq.com:443 "POST /cgi-bin/webhook/send?key=9bb24910-1e95-4f9e-b076-6688f9223935 HTTP/1.1" 200 27
+127.0.0.1 - - [07/Apr/2020 15:10:52] "[37mPOST /slack/events HTTP/1.0[0m" 200 -
+Starting new HTTPS connection (1): qyapi.weixin.qq.com
+https://qyapi.weixin.qq.com:443 "POST /cgi-bin/webhook/send?key=9bb24910-1e95-4f9e-b076-6688f9223935 HTTP/1.1" 200 27
+127.0.0.1 - - [07/Apr/2020 15:10:53] "[37mPOST /slack/events HTTP/1.0[0m" 200 -
+Starting new HTTPS connection (1): qyapi.weixin.qq.com
+https://qyapi.weixin.qq.com:443 "POST /cgi-bin/webhook/send?key=9bb24910-1e95-4f9e-b076-6688f9223935 HTTP/1.1" 200 27
+127.0.0.1 - - [07/Apr/2020 15:10:54] "[37mPOST /slack/events HTTP/1.0[0m" 200 -
+Starting new HTTPS connection (1): qyapi.weixin.qq.com
+https://qyapi.weixin.qq.com:443 "POST /cgi-bin/webhook/send?key=9bb24910-1e95-4f9e-b076-6688f9223935 HTTP/1.1" 200 27
+127.0.0.1 - - [07/Apr/2020 15:10:56] "[37mPOST /slack/events HTTP/1.0[0m" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "app.py", line 163, in <module>
+    app.run(port=3000)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 1005, in inner
+    fd=fd,
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 848, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
